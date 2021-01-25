@@ -1,0 +1,48 @@
+{
+  "name": "sringaribot",
+  "description": "pm security bot for punish pm kozhizz",
+  "logo": "https://telegra.ph/file/178c7f2cf1ddf589b6510.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "plugin",
+    "modular",
+    "productivity",
+    "relay",
+    "channel",
+    "administrators",
+    "pm security"
+  ],
+  "repository": "https://github.com/sakhaavvaavaj93/sringaribot",
+  "website": "https://telegram.dog/oru_bhadrakali_daasan",
+  "success_url": "https://t.me/SpEcHlDe/571",
+  "env": {
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal"
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal"
+    },
+    "TG_BOT_TOKEN": {
+      "description": "Obtain a Telegram bot token by contacting @BotFather"
+    },
+    "AUTH_CHANNEL": {
+      "description": "List down the user IDs who should have permission to use and reply to users, seperated by SPACE. To get user ids, send /id command to Telegram @OwnErObOT"
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
