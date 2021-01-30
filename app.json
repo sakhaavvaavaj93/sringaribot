@@ -14,8 +14,8 @@
     "pm security"
   ],
   "repository": "https://github.com/sakhaavvaavaj93/sringaribot",
-  "website": "https://telegram.dog/oru_bhadrakali_daasan",
-  "success_url": "https://t.me/SpEcHlDe/571",
+  "website": "https://telegram.dog/oru_bhadrakali_daasan"
+
   "env": {
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal"
